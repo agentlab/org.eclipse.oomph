@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<release>
+	<feature name="com.foo.license" version="1.0.0"/>
+	<feature name="com.foo.project1" version="1.0.0">
+		<feature name="com.foo.license" version="1.0.0" license="true"/>
+		<plugin name="com.foo.project1" version="1.0.0"/>
+	</feature>
+	<plugin name="com.foo.project1" version="1.0.0"/>
+</release>

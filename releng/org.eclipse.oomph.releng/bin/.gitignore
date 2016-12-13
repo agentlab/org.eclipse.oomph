@@ -1,1 +1,10 @@
 !*.class
+/ArtifactRepositoryAdjuster$Properties.class
+/ArtifactRepositoryAdjuster.class
+/BreeAnalyzer$1.class
+/BreeAnalyzer.class
+/RepositoryComposer$1.class
+/RepositoryComposer$2.class
+/RepositoryComposer$IO.class
+/RepositoryComposer.class
+/Version.class
