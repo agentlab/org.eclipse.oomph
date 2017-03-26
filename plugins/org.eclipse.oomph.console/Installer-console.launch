@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
 <setAttribute key="additional_plugins">
-<setEntry value="org.eclipse.equinox.p2.artifact.repository:1.1.500.v20160102-2223:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.console:1.0.400.v20150907-2149:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.core:2.4.100.v20160102-2223:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.director.app:1.0.500.v20160102-2223:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.director:2.3.200.v20150907-2149:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.artifact.repository:1.1.500.v20160419-0834:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.console:1.0.500.v20160504-1450:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.core:2.4.100.v20160419-0834:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.director.app:1.0.500.v20160419-0834:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.director:2.3.300.v20160504-1450:default:true"/>
 <setEntry value="org.eclipse.equinox.p2.directorywatcher:1.1.100.v20150423-1455:default:true"/>
 <setEntry value="org.eclipse.equinox.p2.discovery.compatibility:1.0.200.v20131211-1531:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.discovery:1.0.300.v20131210-1027:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.engine:2.4.100.v20160102-2223:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.extensionlocation:1.2.300.v20160128-1810:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.garbagecollector:1.0.200.v20150907-2149:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.jarprocessor:1.0.400.v20150907-2149:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.metadata.repository:1.2.300.v20160102-2223:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.metadata:2.3.100.v20160102-2223:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.operations:2.4.100.v20151114-0221:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.publisher.eclipse:1.2.0.v20151011-0147:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.publisher:1.4.0.v20150907-2149:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.reconciler.dropins:1.1.300.v20150907-2149:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.repository.tools:2.1.300.v20151005-0151:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.repository:2.3.200.v20160102-2223:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.touchpoint.eclipse:2.1.400.v20160102-2223:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.touchpoint.natives:1.2.100.v20160104-2129:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.transport.ecf:1.1.100.v20150521-1342:default:true"/>
-<setEntry value="org.eclipse.equinox.p2.updatesite:1.0.500.v20150907-2149:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.discovery:1.0.400.v20160504-1450:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.engine:2.4.100.v20160419-0834:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.extensionlocation:1.2.300.v20160419-0834:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.garbagecollector:1.0.300.v20160504-1450:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.jarprocessor:1.0.500.v20160504-1450:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.metadata.repository:1.2.300.v20160419-0834:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.metadata:2.3.100.v20160427-2220:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.operations:2.4.200.v20160504-1450:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.publisher.eclipse:1.2.100.v20160504-1450:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.publisher:1.4.100.v20160504-1450:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.reconciler.dropins:1.1.400.v20160504-1450:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.repository.tools:2.1.300.v20160421-0324:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.repository:2.3.200.v20160421-0324:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.touchpoint.eclipse:2.1.400.v20160419-0834:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.touchpoint.natives:1.2.100.v20160419-0834:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.transport.ecf:1.1.201.v20161115-1927:default:true"/>
+<setEntry value="org.eclipse.equinox.p2.updatesite:1.0.600.v20160504-1450:default:true"/>
 </setAttribute>
 <booleanAttribute key="append.args" value="true"/>
 <stringAttribute key="application" value="org.eclipse.oomph.console.application"/>
@@ -51,7 +51,7 @@
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl}"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dosgi.requiredJavaVersion=1.8 -Xms256m -Xmx2048m&#13;&#10;-Dxoomph.redirection.setups=http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/-&gt;http://download.eclipse.org/oomph/setups/&#13;&#10;-Dheadless.startup=true&#13;&#10;-Demca.launcher.console=true&#13;&#10;-Doomph.product.id=epp.package.java&#13;&#10;-Doomph.product.version=latest.released&#13;&#10;-Doomph.project.streams=dev&#13;&#10;-Doomph.installer.verbose=true&#13;&#10;-Dsetup.p2.agent=/repo/emikkar/.emcaidebundlepool"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dosgi.requiredJavaVersion=1.8 -Xms256m -Xmx2048m&#13;&#10;-Dxoomph.redirection.setups=http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/-&gt;http://download.eclipse.org/oomph/setups/&#13;&#10;-Dheadless.startup=true&#13;&#10;-Demca.launcher.console=true&#13;&#10;-Doomph.product.id=epp.package.java&#13;&#10;-Doomph.product.version=latest.released&#13;&#10;-Doomph.project.streams=dev&#13;&#10;-Doomph.installer.verbose=true"/>
 <stringAttribute key="pde.version" value="3.3"/>
 <stringAttribute key="product" value="com.ericsson.emca.launcher.rcp.OomphConsole"/>
 <setAttribute key="selected_features">
